@@ -19,7 +19,7 @@ $ npm install
  - `$ gulp sass` - компилиция sass
  - `$ gulp clean` - очистка каталога `dist/`
  - `$ gulp build` - полная сборка проекта
- - `$ gulp watch` - запуск задачи `css-libs` и отслеживания изменений
+ - `$ gulp watch` - запуск задачи `css-libs`, а так же `scripts` и отслеживания изменений
  - `$ gulp default` - запуск задачи `watch`
 
 ## Общая концепция
