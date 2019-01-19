@@ -1,0 +1,89 @@
+/*quotes-section*/ 
+
+.quotes-section
+	margin-bottom: 63px
+	
+
+.quotes-blocks
+	display: flex 
+	overflow: hidden
+
+.quotes-block
+	width: 795px 
+	height: 385px
+	margin: 0 12px
+	background-color:  #ffffff
+	text-align: center
+	border-radius: 2px
+
+.first-quotes-block
+	margin-left: -418px
+
+.last-quotes-block
+	margin-right: -418px
+
+.quotes-block-content
+	position: relative
+	margin: 75px 30px
+    
+.quotes-block-content:before
+	position: absolute
+	content: url(../img/marks-top.png)
+	left: 8px
+	top: -35px
+    
+.quotes-block-content:after
+	position: absolute
+	content: url(../img/marks-b.png)
+	right: 13px
+	bottom: -27px
+	
+
+.quotes-block-text
+	font-size: 42px
+	color: #232323
+	margin-bottom: 18px
+
+.quotes-block-autor
+	color: #000
+	font-size: 12px
+	font-weight: 300
+	text-transform: uppercase
+
+/*slider*/
+.quotes-blocks-slider
+	display: flex
+
+
+.quotes-slider-item:first-child
+	margin: 0 0 0 390px
+	
+.quotes-slider-item
+	max-width: 795px 
+	height: 385px
+	margin: 0 12px
+	background-color:  #ffffff
+	text-align: center
+	border-radius: 2px
+    
+.quotes-blocks-slider .slick-prev, .quotes-blocks-slider .slick-next
+    cursor: pointer
+    color: transparent
+    border: none
+    outline: none
+    background: transparent
+    position: absolute
+
+.quotes-slider-item::before
+	content: ' '
+	background: url(../img/marks-t.png)
+	position: absolute
+	width: 24px
+	height: 17px
+
+.quotes-slider-item::after
+	content: ' '
+	background: url(../img/marks-b.png)
+	position: absolute
+	width: 24px
+	height: 17px
