@@ -2,7 +2,7 @@
 
 Для работы шаблона необходимо установить `nodejs` (вместе с `npm`)
 
-- [Установка Nodejs](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager "Installing Node.js via package manager")
+- [Установка Nodejs](https://nodejs.org/uk/download/)
 
 ## Установка шаблона
 
